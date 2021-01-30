@@ -30,5 +30,5 @@ $ make fighter
 
 
 * Bugs
-** Some fight cards don't work.
-** If a fighter has done boxing and MMA it might get wrong information.
+ - Some fight cards don't work.
+ - If a fighter has done boxing and MMA it might get wrong information.
