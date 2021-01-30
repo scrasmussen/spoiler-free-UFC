@@ -1,6 +1,6 @@
 # Spoiler-free UFC
 
-A CLI tool for printing spoiler-free fight cards or fighter schedules.
+A Python tool for printing spoiler-free fight cards or fighter schedules.
 
 ## Example
 
