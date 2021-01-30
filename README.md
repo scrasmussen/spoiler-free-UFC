@@ -4,7 +4,7 @@ A CLI tool for printing spoiler-free fight cards or fighter schedules.
 
 ## Example
 
-Edit spoiler_free.py to choose event. Such as `event = 'UFC 252'.
+Edit spoiler_free.py to choose event. Such as `event = 'UFC 252'`.
 Type `make`, `make e`, or `make event` to print fight card.
 
 ``` bash
