@@ -13,7 +13,8 @@ Type `make`, `make e`, or `make event` to print fight card.
 $ make event
 ```
 #+caption: Org mode logo
-[[file:images/org-mode-unicorn.png]]
+[[file:images/event_example.org]]
+
 
 Edit spoiler_free.py to choose a fighter, be it MMA or boxer.
 Such as `fighter = 'Andre Ward'.
@@ -22,7 +23,8 @@ Type `make`, `make f`, or `make fighter` to print fighter schedule.
 $ make fighter
 ```
 #+caption: Org mode logo
-[[file:images/org-mode-unicorn.png]]
+[[file:images/fighter_schedule_example.org]]
+
 
 
 * Bugs
