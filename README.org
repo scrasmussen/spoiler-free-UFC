@@ -1,4 +1,5 @@
 #+AUTHOR:    Soren Rasmussen
+#+STARTUP: inlineimages
 
 * Spoiler-free UFC
 
@@ -13,7 +14,9 @@ Type `make`, `make e`, or `make event` to print fight card.
 $ make event
 #+end_src
 
-[[https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/event_example.png][event_example.png]]
+# [[https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/event_example.png][event_example.png]]
+![event_example](https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/event_example.png)
+
 
 
 Edit spoiler_free.py to choose a fighter, be it MMA or boxer.
@@ -24,8 +27,10 @@ Type `make`, `make f`, or `make fighter` to print fighter schedule.
 $ make fighter
 #+end_src
 
-[[https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/fighter_schedule_example.png][fighter_schedule_example.png]]
-
+# [[https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/fighter_schedule_example.png][fighter_schedule_example.png]]
+<p align="center">
+  <img src="https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/fighter_schedule_example.png">
+</p>
 
 
 * Bugs
