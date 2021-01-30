@@ -29,6 +29,9 @@ $ make fighter
 ![fighter_schedule](https://raw.githubusercontent.com/scrasmussen/spoiler-free-UFC/main/images/fighter_schedule_example.png)
 
 
+## Todo
+ - Handle `make Andre Ward` or `make UFC 250` input.
+
 ## Known Bugs
  - Some fight cards don't work.
  - If a fighter has done boxing and MMA it might get wrong information.
