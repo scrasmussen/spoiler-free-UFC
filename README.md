@@ -34,6 +34,8 @@ $ make fighter
 
 ## Todo
  - Handle `make Andre Ward` or `make UFC 250` input.
+ - Improve input parsing
+ - Prevent output from being too wide
 
 ## Known Bugs
  - Some fight cards don't work.
