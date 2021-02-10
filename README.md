@@ -40,3 +40,4 @@ $ make fighter
 ## Known Bugs
  - Some fight cards don't work.
  - If a fighter has done boxing and MMA it might get wrong information.
+<!-- https://news.ycombinator.com/item?id=26090243 -->
