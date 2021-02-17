@@ -33,6 +33,7 @@ $ make fighter
 
 
 ## Todo
+ - TUI: because [why not](https://graydon2.dreamwidth.org/193447.html)?
  - Handle `make Andre Ward` or `make UFC 250` input.
  - Improve input parsing
  - Prevent output from being too wide
