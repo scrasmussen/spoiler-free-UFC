@@ -9,7 +9,7 @@ jobs:
       - run: echo "🔎 Branch ${{ github.ref }} on repo ${{ github.repository }}"
 
       - name: Check out repository code
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
