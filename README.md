@@ -1,5 +1,5 @@
 # Spoiler-free UFC
-![build status](https://github.com/scrasmussen/spoiler-free-UFC/.github/workflows/main.yml/badge.svg)
+[![build status](https://github.com/scrasmussen/spoiler-free-UFC/workflows/build%20status/badge.svg)](https://github.com/scrasmussen/spoiler-free-UFC/actions)
 
 
 A Python tool for printing spoiler-free fight cards or fighter schedules.
