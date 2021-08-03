@@ -1,4 +1,6 @@
 # Spoiler-free UFC
+![build status](https://github.com/scrasmussen/spoiler-free-UFC/.github/workflows/main.yml/badge.svg)
+
 
 A Python tool for printing spoiler-free fight cards or fighter schedules.
 When printing fight cards, the tool randomly chooses which fighter to output
