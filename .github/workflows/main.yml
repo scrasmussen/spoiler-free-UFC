@@ -1,0 +1,31 @@
+name: build status
+on: [pull request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+    matrix:
+	python-version: [3.9]
+
+    steps:
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 Branch ${{ github.ref }} on repo ${{ github.repository }}"
+
+      - name: Check out repository code
+      - uses: actions/checkout@v2
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+	  pip install pandas tabulate beautifulsoup4 requests
+
+      - name: Test with Andre Ward
+        run: |
+ 	  python3 spoiler_free.py
+
+      - run: echo "🐧 This job finished!!"
